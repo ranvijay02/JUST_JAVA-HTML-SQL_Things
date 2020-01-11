@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>jQuery</title>
+
+<script>
+	function dispName() {
+		var tf = document.getElementById("showText").value;
+		console.log(tf);
+		document.getElementById("demo").innerHTML = tf;
+	}
+</script>
+</head>
+<body>
+	<br>Enter Text Here :
+	<input type="text" id="showText" placeholder="text" />
+	<input type="button" value="Click" onclick="dispName()" />
+	<p id="demo">See : </p>
+</body>
+</html>

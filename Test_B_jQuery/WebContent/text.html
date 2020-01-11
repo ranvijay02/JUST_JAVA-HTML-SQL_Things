@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>jQuery</title>
+
+<script>
+	function dispName() {
+		var tf = document.getElementById("demo").value;
+		console.log(tf);
+		document.getElementById("demo1").innerHTML = tf;
+		console.log(tf);
+	}
+</script>
+</head>
+<body>
+	<br>Enter Text Here :
+	<input type="text" name="ttext" placeholder="text" id="demo" />
+	<input type="button" id="tTab" value="Click" onclick ="dispName()" />
+	<p id="demo1"></p>
+</body>
+</html>
