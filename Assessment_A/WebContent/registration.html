@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration form</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<h1>Athlete Registrations Form</h1>
+<form action="#" method="get">
+<table border="1">
+<tr><td>Athlete Name </td><td><input type="text" name="ename" value="" required /></td></tr>
+<tr><td>Gender</td> <td><input type="radio" name="egender" value="male">Male
+<input type="radio" name="egender" value="female">Female</td></tr>
+<tr><td>Category </td><td><select name="category">
+    <option value="select">Select
+    <option value="running">Running</option>
+    <option value="high jump">High Jump</option>
+    <option value="hurdles">Hurdles</option>
+    <option value="relay">Relay</option>
+    <option value="javelin throw">Javelin Throw</option>
+    <option value="shot put">Shot put</option>
+  </select></td></tr>
+<tr><td>Email</td> <td><input type="text" name="email" value="" required /></td></tr>
+<tr><td>Mobile</td> <td><input type="text" name="emobile" pattern="[1-9]{1}[0-9]{9}" value="" required /></td></tr>
+<tr><td><input type="submit" value="ADD"> <input type="reset" value="CANCEL"></td>
+<td><a href = "home.html" target="_blank">Home</a></td></tr>
+</table>  
+</form>
+</body>
+</html>
