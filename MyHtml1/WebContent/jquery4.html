@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery-test</title>
+<script src = "jquery-1.5.1.min.js"></script>
+<script>
+function getready() {
+	$("#mydiv1").text("Hello, Friends!").css({"color":"blue" , "font-size":"30px"});
+	$("#mydiv2").text("Hello, Again!").css("color","red"); //for single attribute no need of brace inside css
+}
+
+$(document).ready(getready);
+</script>
+</head>
+<body>
+<div id="mydiv1"></div>
+<div id="mydiv2"></div>
+</body>
+</html>

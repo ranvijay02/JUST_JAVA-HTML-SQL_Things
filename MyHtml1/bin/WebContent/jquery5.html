@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery-test</title>
+<script src = "jquery-1.5.1.min.js"></script>
+<script>
+function add() {
+	var v1 = $("#txt").val();
+	$(".myp").append(v1);
+	$(".myp1").text(v1);
+	$("#txt").val("");
+}
+
+</script>
+</head>
+<body>
+From textfield : <span class = "myp" >&nbsp;</span>
+<br>Entered: <span class = "myp1">&nbsp;</span>
+<br><input type="text" id="txt">
+<br><input type = "button" value = "click" onclick = "add()">
+<div id="divTest1"></div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My HTML</title>
+<!-- <style type="text/css">
+span {
+color:blue; font-size:30px
+}
+</style> -->
+<link rel="stylesheet" type="text/css" href="mystyle.css"/>
+<script>
+function show(itm){
+itm.innerHTML+'Hey, you clicked me!'
+}
+function loadIt() {
+	document.getElementById("myBtn").onclick=displayDate;
+}
+function displayDate() {
+	document.getElementById("demo1").innerHTML = Date();
+}
+function displayName(text) {
+	document.getElementById("demo2").innerHTML = "Hello " +text.value;
+}
+</script>
+</head>
+<body onload="loadIt()">
+<hr>
+<h1>Welcome to Deloitte</h1>
+
+<input type="button" id="myBtn" value="Click for Date" />
+<!-- onclick="displayDate()"/> -->
+<p id="demo1"></p>
+
+<br>Enter your name:
+<input type="text" id="mytxt" placeholder="your name here" 
+onblur="displayName(this)"/>
+<p id="demo2"></p>
+
+<a href = "register.html"target="_blank">Click here for registration</a>
+
+<!-- <h2 onclick="this.innerHTML = 'You clicked me!'">Click on this text</h2>  -->
+<h2 onclick="show(this)">Click on this text</h2>
+
+<img alt="metro" src="image/metro.jpg"><br>
+
+<br><a href = "scroll.html" target="_blank">Goto Scroll</a>
+<br><a href="https://www.google.com/" target="_blank">Google</a>
+is a link to Google.com
+<br>My email id <a href = "mailto:support@yourcompany.com">
+mrunankbhosale@gmail.com</a>
+<ul>
+<li>Java</li>
+<li>C++</li>
+<li>.Net</li>
+<li>Python</li>
+<li>C</li>
+</ul>
+<div style="background-color:red">
+<font color="green" size="7">Green size <span>25</span></font>
+</div>
+<div class="bglr">This div bgcolor from css</div>
+<strong>a strong text here</strong>
+<table border="3">
+<tr><th>SNo</th>
+<th>Name</th>
+<th>Subject</th>
+<th>Descr</th>
+</tr>
+<tr><td>1</td><td>Mrunank</td><td>Coding</td><td>Best Coder</td>
+</tr>
+</table>
+</body>
+</html>

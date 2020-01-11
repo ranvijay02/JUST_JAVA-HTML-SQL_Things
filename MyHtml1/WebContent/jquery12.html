@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery-test</title>
+<script src="jquery-1.5.1.min.js"></script>
+<script>
+	function showBox() {
+		$("#divTestArea").slideDown(500);
+	}
+	
+	function hideBox() {
+		$("#divTestArea").slideUp(2000);
+	}
+	
+</script>
+</head> 
+<body>
+<a href="javascript:void(0);" onclick="showBox()">SHOW BOX</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="javascript:void(0);" onclick="hideBox()">HIDE BOX</a> <!-- //javascript:void(0); is written to not go to another webpage after u click -->
+	<div id="divTestArea"
+		style="padding: 50px; background-color: #89BC78; text-align: center; width: 300; font-size:30px;display:none">
+		<b>Hello Guys!</b>
+	</div>
+</body>
+</html>

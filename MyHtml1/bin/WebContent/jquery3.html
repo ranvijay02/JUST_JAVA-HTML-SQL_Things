@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery-test</title>
+<script src="jquery-1.5.1.min.js"></script>
+<script>
+	$(function check() {
+		$("#mydiv").text("Hello, Friends!");
+	});
+	function loadMe() {
+		//alert('loadMe()');
+		$("body").click(
+				function(event) {
+				alert('clicked : ' +event.target.value);
+				}
+		);
+	}
+</script>
+</head>
+<body onload="loadMe()">
+	<input type="button" value="CLICK"/>
+	<input type="text" value=""/>
+	<div id="mydiv"></div>
+	
+</body>
+</html>

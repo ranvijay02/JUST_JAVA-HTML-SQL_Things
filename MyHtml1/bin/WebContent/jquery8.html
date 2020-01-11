@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery-test</title>
+<script src="jquery-1.5.1.min.js"></script>
+<script>
+	$(function() {
+		$("#divTestArea1 > b").css("color", "blue"); // >b means only the immediate next child will only applied the formatting
+	});
+
+	$(function() {
+		$("#divTestArea2 i").css("color", "red");
+	});
+</script>
+</head>
+<body>
+	<div id="divTestArea1">
+		<b>Bold text</b> <i>Italic text</i>
+		<div id="divTestArea2">
+			<b>Bold text</b> <i>Italic text 2</i>
+			<div>
+				<b>Bold text</b> <i><u>Italic text 3</u></i>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

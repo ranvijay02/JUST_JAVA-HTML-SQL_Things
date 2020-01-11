@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery-test</title>
+<script src="jquery-1.5.1.min.js"></script>
+<script>
+	function showBoxes() {
+		$("#divTestArea1").fadeIn("fast");
+		$("#divTestArea2").fadeIn("slow");
+		$("#divTestArea3").fadeIn(5000);
+	}
+</script>
+</head>
+<body>
+	<a href="javascript:void(0);" onclick="showBoxes();">SHOW BOXES</a>
+	<div id="divTestArea1"
+		style="width: 150px; height: 80px; background-color: #89BC38; display: none"></div>
+	<div id="divTestArea2"
+		style="width: 150px; height: 80px; background-color: #C3D1DF; display: none"></div>
+	<div id="divTestArea3"
+		style="width: 150px; height: 80px; background-color: #9966FF; display: none"></div>
+</body>
+</html>
