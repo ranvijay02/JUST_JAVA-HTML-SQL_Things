@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Data Exception</title>
+<style type="text/css">
+  h3 {color:black}
+</style>
+</head>
+<body>
+<h3>An error occurred. Please try later</h3>
+</body>
+</html>
