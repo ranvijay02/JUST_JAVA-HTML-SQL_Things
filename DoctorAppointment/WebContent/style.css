@@ -1,0 +1,72 @@
+fieldset {
+	margin-top: 20px;
+	margin-left: 50%;
+	margin-right: 5%;
+	background: #8891a6;
+	height: 250px;
+	border-radius: 10px; 
+}
+
+
+
+body {
+	background-image: url(01.jpg);
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1100px 630px;
+}
+
+h1, h2, h3{
+	color: white;
+	text-align: center;
+} 
+a{
+	color: black;
+}
+
+a:hover{
+	color: black;
+	font-weight: bold;
+}
+
+.doctorTable{
+	margin-top: 180px;
+	background:#ebe9f0 ;
+	color: #2b3749;
+	
+}
+
+.appointmentTable{
+	margin-top:100px;
+	margin-left: 350px;
+	background:#ebe9f0 ;
+	color: #2b3749;
+}
+
+.doctorTable {
+	margin-top: 200px;
+	margin-left: 250px;
+	background:#ebe9f0 ;
+	color: #2b3749;
+}
+
+.doctorAvailable {
+	margin-top: 200px;
+	background:#ebe9f0 ;
+	color: #2b3749;
+}
+
+.appointmentList {
+	margin-top: 200px;
+	background:#ebe9f0 ;
+	color: #2b3749;
+}
+
+.admin{
+	margin-top: 100px;
+	margin-left: 350px;
+	align-self: center;
+	background: #ebe9f0;
+	color: #2b3749;
+}
