@@ -1,0 +1,13 @@
+Spring Notes:
+xml tags : <beans> root tag
+<bean> has attributes id and class
+id is referred in program
+    Employee emp = (Employee) ctx.getBean("emp");
+class has the fully qualified name of class
+   com.deloitte.bean.Employee
+<bean> has subtags
+  <property> for each property of class
+  name and value are attributes
+Putting together all beans/components is called Spring wiring
+IOC - inversion of control 
+If a bean refers to another bean, ref="idofbean"
